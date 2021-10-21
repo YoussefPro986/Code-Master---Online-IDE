@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Code Master - Online IDE</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="container-fluid">
+
+<div class="editor item active">
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        <div class="box box-pm">
+                                            <div class="box-header"><b>HTML</b> <div class="btn btn-info" data-toggle="modal" data-target="#choose-bg">Background</div></div>
+                                            <div class="box-body">
+                                                <div id="promo-html-editor" data-target="#promo-html"></div>
+                                                <textarea class="hideme" id="promo-html" name="promo-html" data-type=".html"><div class="deal-content">
+    <h1 class="title">Deals of the Day</h1>
+    <h4 class="details">Toronto (YYZ) to Paris (CDG)</h4>
+    <div class="price">C$ 15% OFF</div>
+</div></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="box box-pm">
+                                            <div class="box-header"><b>CSS</b></div>
+                                            <div class="box-body">
+                                                <div id="promo-css-editor" data-target="#promo-css"></div>
+                                                <textarea class="hideme" id="promo-css" name="promo-css" data-type="style">.preview {
+    display:flex !important;
+    flex-direction:column;
+    justify-content:center;
+}
+
+.deal-content {
+    text-align:center;
+    background-color:rgba(12, 166, 220, 0.9);
+    color:#fff;
+    padding:15px 0px;
+}
+
+.deal-content .title{
+    font-weight:bold;
+    text-transform:uppercase;
+    margin:0;
+    line-height:1;
+}
+.deal-content .details {
+    margin:30px 0px;
+    font-weight:bold;
+    line-height:1;
+}
+
+.deal-content .price {
+    height:44px;
+    line-height:44px;
+    display:inline-block;
+    padding:0 20px;
+    background-color:#fff;
+    color:rgb(12, 166, 220);
+    font-size:18px;
+    font-weight:bold;
+    border-radius:30px;
+}</textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="box box-pm">
+                                            <div class="box-header"><b>JavaScript</b></div>
+                                            <div class="box-body">
+                                                <div id="promo-js-editor" data-target="#promo-js"></div>
+                                                <textarea class="hideme" id="promo-js" name="promo-js" data-type="script"></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+<div class="preview-wrapper">
+                                <div class="box box-pm">
+                                    <div class="box-header">
+                                        <div class="preview-options-wrapper">
+                                            <div class="preview-options" data-css="width">
+                                                <label>Width</label>
+                                                <input type="number" class="form-control" id="preview-width">
+                                            </div>
+                                            <div class="preview-options" data-css="height">
+                                                <label>Height</label>
+                                                <input type="number" class="form-control" id="preview-height">
+                                            </div>
+                                            <div class="preview-options align">
+                                                <label>Align</label>
+                                                <span class="preview-icon" data-preview-align="pull-left">
+                                                    <i class="fa fa-align-left"></i>
+                                                </span>
+                                                <span class="preview-icon" data-preview-align="center">
+                                                    <i class="fa fa-align-center"></i>
+                                                </span>
+                                                <span class="preview-icon" data-preview-align="pull-right">
+                                                    <i class="fa fa-align-right"></i>
+                                                </span>
+                                            </div>
+                                          <div class="preview-options device">
+                                                    <label>Devices</label>
+                                                    <span class="preview-icon" data-preview-device="mobile">
+                                                        <i class="fa fa-mobile-phone"></i>
+                                                    </span>
+                                                    <span class="preview-icon"  data-preview-device="tab">
+                                                        <i class="fa fa-tablet"></i>
+                                                    </span>
+                                                    <span class="preview-icon" data-preview-device="laptop">
+                                                        <i class="fa fa-laptop"></i>
+                                                    </span>
+                                                    <span class="preview-icon active" data-preview-device="">
+                                                        <i class="fa fa-desktop"></i>
+                                                    </span>
+                                                </div>
+                                        </div>
+                                    </div>
+                                    <div class="box-body">
+                                        <div class="preview-option-wrapper">
+                                            <div class="preview">
+                                                <style></style>
+                                                <div class="html"></div>
+                                                <script></script>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+  
+  
+  <input type="text" class="hideme" name="promo-bg" id="promo-bg">
+                            <!-- Modal -->
+                            <div class="modal style-1" id="choose-bg" role="dialog">
+                                <div class="modal-dialog modal-lg">
+                            
+                                    <!-- Modal content-->
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                            <h4 class="modal-title">Choose Background Image</h4>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="dnd-file-uploader">
+                                                <input class="hideme" type="file" accept=".jpg,.png" name="promo-bg" id="promo-bg">
+                                                <div class="dnd-file-handler">
+                                                    DROP IMAGE OR CLICK ME
+                                                </div>
+                                            </div>
+                                            <div class="row image-images-container">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/ace/1.2.6/ace.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
