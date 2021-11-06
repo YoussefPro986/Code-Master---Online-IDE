@@ -8,6 +8,10 @@ What is Code Master and how does it work
 
 It is a free and open source web code editor developed by Yousef Pro. The editor supports many features and multiple languages ​​such as HTML CSS JS only, as well as some features such as the display feature on different devices such as computer, mobile phone and other display devices. The interface of the code editor is easy and Very simple, enables you to use the editor in an easier and good way. There are multiple versions of this editor, and they are also available on, the web version, the computer version for desktop devices, for mobile phones only, and the editor is also available in two versions for the desktop, which are the basic version and it is connected to the application server, which works Online, as well as the lite version, which works without the need to connect to the Internet, that is, it works offline
 
+development history
+
+The idea of working, creating and developing this editor was officially presented in 2011 and it was then after working on it, and also the first beta version was launched in 2011, and also the beta version did not have multi-use features such as those found in this current version and after adding new features to the first beta version such as adding Multiple devices and this option allowed you to add many devices and specify screen sizes. This feature has been canceled and deleted in the official version and also downloading the source code from your project was also available, but after the idea was canceled in the final version due to some malfunctions of the web engine and also the registration feature Access to the account has also been deleted. Some of the databases of this editor have been canceled. After several months of development, it was announced that the final version would be released in 2012 and at that time the official version was released, as well as it was offered for free and available for some devices as well as open source
+
 Features and extras
 
 1 - Add a background with the click of a button
