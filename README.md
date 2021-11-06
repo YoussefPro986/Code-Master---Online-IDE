@@ -40,4 +40,36 @@ There are also many other simple features
 
 You can try the web version from the following link
 
+https://eurythmical-motion.000webhostapp.com/
+
 Available Downloads
+
+Code Master For PC
+
+https://mega.nz/file/HCwSjJpT#2a89nsojnqnay7PxMI9Ayoh78_N_s7FDSxmGzniCkqg
+
+Follow me on 💻📲
+
+Facebook : https://www.facebook.com/profile.php?id=100005707052670
+
+Youtube : https://www.youtube.com/channel/UCrp30YJOmb7FG9k3bfkCFBA
+
+Twitter : https://twitter.com/Youssef82718106
+
+instagram : https://www.instagram.com/youssef.pro986/
+
+LinkedIn : https://www.linkedin.com/in/youssefpro986/
+
+Pinterest : https://www.pinterest.com/youssefpro986
+
+Any questions about programming or software projects from here
+
+Github : https://github.com/YoussefPro986
+
+Pastebin :https://pastebin.com/u/YoussefPro986...
+
+Contact and support 📩
+
+Email : youssefpro986@gmail.com
+
+Whatsapp Number : 01017081807
